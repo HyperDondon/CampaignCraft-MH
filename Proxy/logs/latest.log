@@ -1,0 +1,208 @@
+[00:04:42] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] YanyBoy22 (/172.105.16.20:47582): kicked from server campaign: Server closed
+[00:04:42] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has disconnected
+[00:04:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Hyper_Dondon (/142.126.99.14:61334): kicked from server campaign: Server closed
+[00:04:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[00:04:42] [zulfbungee - Task Executor #53/INFO] [zulfbungee]: §aWaiting for a player to join...
+[00:04:42] [zulfbungee - Task Executor #53/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8061 (campaign)
+[00:04:42] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[00:04:42] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[00:05:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[00:05:33] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[00:05:39] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has connected
+[00:05:39] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[00:16:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Hyper_Dondon (/142.126.99.14:61334): kicked from server campaign: Server closed
+[00:16:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[00:16:12] [zulfbungee - Task Executor #54/INFO] [zulfbungee]: §aWaiting for a player to join...
+[00:16:12] [zulfbungee - Task Executor #54/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8061 (campaign)
+[00:16:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] YanyBoy22 (/172.105.16.20:47582): kicked from server campaign: Server closed
+[00:16:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has disconnected
+[00:16:12] [zulfbungee - Task Executor #54/INFO] [zulfbungee]: §aWaiting for a player to join...
+[00:16:12] [zulfbungee - Task Executor #54/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8061 (campaign)
+[00:16:12] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[00:16:12] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[00:17:01] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[00:17:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[00:17:08] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has connected
+[00:17:09] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[00:18:44] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YanyBoy22 (/172.105.16.20:47582) has disconnected
+[00:18:44] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has disconnected
+[00:28:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Hyper_Dondon (/142.126.99.14:61334): kicked from server campaign: Server closed
+[00:28:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[00:28:53] [zulfbungee - Task Executor #56/INFO] [zulfbungee]: §aWaiting for a player to join...
+[00:28:53] [zulfbungee - Task Executor #56/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8061 (campaign)
+[00:28:53] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[00:31:14] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[00:31:17] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[00:59:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YanyBoy22 (/172.105.16.20:44890) has connected
+[00:59:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[01:01:18] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has connected
+[01:01:18] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[01:15:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[01:15:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has disconnected
+[01:15:44] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[01:15:44] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[01:16:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[01:16:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[01:16:21] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YanyBoy22 (/172.105.16.20:44890) has disconnected
+[01:16:21] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[01:16:21] [zulfbungee - Task Executor #60/INFO] [zulfbungee]: §aWaiting for a player to join...
+[01:16:21] [zulfbungee - Task Executor #60/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8043 (lobby)
+[01:16:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YanyBoy22 (/172.105.16.20:56926) has connected
+[01:16:23] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[01:16:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has connected
+[01:16:26] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[01:23:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YanyBoy22 (/172.105.16.20:56926) has disconnected
+[01:23:37] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has disconnected
+[01:23:37] [zulfbungee - Task Executor #61/INFO] [zulfbungee]: §aWaiting for a player to join...
+[01:23:37] [zulfbungee - Task Executor #61/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8061 (campaign)
+[01:30:22] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YanyBoy22 (/172.105.16.20:44380) has connected
+[01:30:23] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[01:30:32] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has connected
+[01:30:32] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[01:31:26] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] YanyBoy22 (/172.105.16.20:44380) has disconnected: An internal error occurred in your connection.
+[01:31:26] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YanyBoy22 (/172.105.16.20:44380): read timed out
+[01:31:26] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has disconnected
+[01:31:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YanyBoy22 (/172.105.16.20:42148) has connected
+[01:31:53] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[01:31:57] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has connected
+[01:31:57] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[02:05:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[02:05:28] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has disconnected
+[02:06:08] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has connected
+[02:06:08] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[02:17:50] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[02:17:50] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[02:18:23] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Radiorplayz (/182.19.215.194:64305) has connected
+[02:18:24] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Radiorplayz -> lobby has connected
+[02:20:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Radiorplayz (/182.19.215.194:64305): kicked from server lobby: rejoin
+[02:20:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Radiorplayz -> lobby has disconnected
+[02:20:03] [zulfbungee - Task Executor #66/INFO] [zulfbungee]: §aWaiting for a player to join...
+[02:20:03] [zulfbungee - Task Executor #66/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8043 (lobby)
+[02:20:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Radiorplayz (/182.19.215.194:64305) has disconnected: You were kicked from lobby: rejoin
+[02:20:28] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /182.19.215.194:64362 has disconnected
+[02:20:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[02:20:40] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has disconnected
+[02:20:42] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Radiorplayz (/182.19.215.194:64377) has connected
+[02:20:42] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Radiorplayz -> lobby has connected
+[02:21:49] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Radiorplayz -> campaign has connected
+[02:21:49] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Radiorplayz -> lobby has disconnected
+[02:21:52] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[02:21:52] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[02:24:59] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[02:24:59] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[02:25:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[02:25:03] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[02:25:05] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[02:25:05] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[02:25:49] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Hyper_Dondon (/142.126.99.14:61334) has disconnected
+[02:25:49] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[02:27:35] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has connected
+[02:27:35] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[02:32:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YanyBoy22 (/172.105.16.20:42148) has disconnected
+[02:32:42] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has disconnected
+[02:50:25] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Radiorplayz (/182.19.215.194:64377) has disconnected
+[02:50:25] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Radiorplayz -> campaign has disconnected
+[02:50:25] [zulfbungee - Task Executor #71/INFO] [zulfbungee]: §aWaiting for a player to join...
+[02:50:25] [zulfbungee - Task Executor #71/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8061 (campaign)
+[04:03:56] [Netty epoll Worker #1/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /51.15.34.47:61000: read timed out
+[10:22:01] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Hyper_Dondon (/142.126.99.14:51405) has connected
+[10:22:02] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[10:22:07] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[10:22:07] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[10:22:21] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[10:22:21] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[10:22:27] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[10:22:27] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[10:24:00] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[10:24:00] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[10:24:45] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[10:24:45] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[10:33:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[10:33:36] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[10:34:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[10:34:32] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[10:34:35] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[10:34:35] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[10:34:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[10:34:49] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[10:34:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[10:34:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[10:59:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[10:59:43] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[11:28:19] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[11:28:19] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[11:28:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[11:28:23] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[11:59:18] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[11:59:18] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[12:08:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[12:08:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[12:27:25] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Hyper_Dondon (/142.126.99.14:51405): kicked from server campaign: Server closed
+[12:27:25] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[12:27:25] [zulfbungee - Task Executor #80/INFO] [zulfbungee]: §aWaiting for a player to join...
+[12:27:25] [zulfbungee - Task Executor #80/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8061 (campaign)
+[12:27:25] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[12:27:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] Hyper_Dondon (/142.126.99.14:51405) has disconnected
+[12:27:51] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[12:27:51] [zulfbungee - Task Executor #80/INFO] [zulfbungee]: §aWaiting for a player to join...
+[12:27:51] [zulfbungee - Task Executor #80/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8043 (lobby)
+[12:39:01] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YanyBoy22 (/172.105.25.183:53082) has connected
+[12:39:01] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[12:39:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YanyBoy22 (/172.105.25.183:53082) has disconnected
+[12:39:18] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[12:39:18] [zulfbungee - Task Executor #81/INFO] [zulfbungee]: §aWaiting for a player to join...
+[12:39:18] [zulfbungee - Task Executor #81/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8043 (lobby)
+[12:39:20] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YanyBoy22 (/172.105.25.183:41872) has connected
+[12:39:20] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[12:42:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YanyBoy22 (/172.105.25.183:41872) has disconnected
+[12:42:25] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[12:42:25] [zulfbungee - Task Executor #82/INFO] [zulfbungee]: §aWaiting for a player to join...
+[12:42:25] [zulfbungee - Task Executor #82/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8043 (lobby)
+[12:43:59] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YanyBoy22 (/172.105.25.183:41208) has connected
+[12:43:59] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[12:44:46] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has connected
+[12:44:46] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[13:08:24] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[13:08:24] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has disconnected
+[13:12:13] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has connected
+[13:12:13] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[13:20:43] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] Hyper_Dondon (/192.111.128.171:48193) has connected
+[13:20:43] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[13:24:11] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[13:24:11] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[14:39:02] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[14:39:02] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has disconnected
+[14:40:24] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] Hyper_Dondon (/192.111.128.171:48193): kicked from server campaign: Server closed
+[14:40:24] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has disconnected
+[14:40:24] [zulfbungee - Task Executor #89/INFO] [zulfbungee]: §aWaiting for a player to join...
+[14:40:24] [zulfbungee - Task Executor #89/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8061 (campaign)
+[14:40:24] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has connected
+[14:41:25] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> campaign has connected
+[14:41:27] [Netty epoll Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] Hyper_Dondon -> lobby has disconnected
+[14:41:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YanyBoy22 (/172.105.25.183:41208) has disconnected
+[14:41:31] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[14:41:31] [zulfbungee - Task Executor #90/INFO] [zulfbungee]: §aWaiting for a player to join...
+[14:41:31] [zulfbungee - Task Executor #90/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8043 (lobby)
+[14:41:33] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YanyBoy22 (/172.105.25.183:34064) has connected
+[14:41:33] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[14:44:39] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] YanyBoy22 (/172.105.25.183:34324) has disconnected: You are already connected to this proxy!
+[14:44:43] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] YanyBoy22 (/172.105.25.183:49558) has disconnected: You are already connected to this proxy!
+[14:44:47] [Netty epoll Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] YanyBoy22 (/172.105.25.183:49572) has disconnected: You are already connected to this proxy!
+[14:44:57] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] YanyBoy22 (/172.105.25.183:46638) has disconnected: You are already connected to this proxy!
+[14:45:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] YanyBoy22 (/172.105.25.183:34064) has disconnected: An internal error occurred in your connection.
+[14:45:04] [Netty epoll Worker #0/ERROR] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YanyBoy22 (/172.105.25.183:34064): read timed out
+[14:45:04] [Netty epoll Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[14:45:04] [zulfbungee - Task Executor #92/INFO] [zulfbungee]: §aWaiting for a player to join...
+[14:45:04] [zulfbungee - Task Executor #92/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8043 (lobby)
+[14:45:05] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YanyBoy22 (/172.105.25.183:32862) has connected
+[14:45:05] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[14:46:50] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] YanyBoy22 (/172.105.25.183:32862) has disconnected
+[14:46:50] [zulfbungee - Task Executor #93/INFO] [zulfbungee]: §aWaiting for a player to join...
+[14:46:50] [zulfbungee - Task Executor #93/INFO] [zulfbungee]: §eDisconnecting client dal.5.prsm.sh/<unresolved>:8043 (lobby)
+[14:46:50] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[14:46:52] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.client.AuthSessionHandler]: [connected player] YanyBoy22 (/172.105.25.183:52568) has connected
+[14:46:52] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[14:47:13] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has connected
+[14:47:13] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has disconnected
+[15:00:32] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> lobby has connected
+[15:00:32] [Netty epoll Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] YanyBoy22 -> campaign has disconnected
