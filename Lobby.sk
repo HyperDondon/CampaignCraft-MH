@@ -1,0 +1,51 @@
+command /campaign:
+    trigger:
+        connect player to "campaign"
+
+on command:
+    sender is a player
+    player doesn't have permission "op"
+    command is not "campaign"
+    cancel event
+    send component mini message from "<b><gradient:#727575:#1C1A35>Unknown command</gradient></b>" to player
+
+
+on tab complete:
+    player doesn't have permission "op"
+    cancel event
+
+on send command list:
+    player doesn't have permission "op"
+    remove command list where [input doesn't contain "campaign"] from command list
+
+on join:
+    wait 1 tick
+    set slot 4 of player to a nether star named mini message from "<i><b><gradient:#727575:#1C1A35>ᴛʜᴇ ᴄᴏᴍᴘᴀꜱꜱ</gradient></b></i>" #Use Adventure's MiniMessage for text colouring.
+
+on right click:
+    #player's held item is a nether star
+    uncolored name of player's held item is "ᴛʜᴇ ᴄᴏᴍᴘᴀꜱꜱ"
+    create a gui with virtual chest inventory with 3 rows named mini message from "<i><b><gradient:#727575:#1C1A35>ᴛʜᴇ ᴄᴏᴍᴘᴀꜱꜱ</gradient></b></i>":
+        make gui 13 with a golden hoe named mini message from "<i><b><gradient:#3B9494:#1300FF>ᴛʜᴇ ᴄᴀᴍᴀᴘɪɢɴ</gradient></b></i>":
+            execute player command "/campaign"
+            play sound "minecraft:entity.experience_orb.pickup" in master category with pitch 0.5 for player
+    play sound "minecraft:entity.experience_orb.pickup" in master category for player
+    open last created gui for player
+
+every 1 second:
+    set weather of world "world" to clear
+    set time of world "world" to 2:00
+
+on spawn:
+    #broadcast spawn reason
+    event-entity is not a player
+    spawn reason is set
+    spawn reason is not customized
+    cancel event
+
+on block break:
+    player doesn't have permission "op"
+    cancel event
+
+on damage:
+    cancel event

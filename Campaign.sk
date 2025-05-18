@@ -1,0 +1,297 @@
+every 1 tick:
+    set weather of world "world" to clear
+    set time of world "world" to 5:30
+
+on spawn:
+    #broadcast spawn reason
+    event-entity is not a player
+    spawn reason is set
+    spawn reason is not customized
+    cancel event
+
+command /lobby:
+    trigger:
+        connect player to "lobby"
+
+on command:
+    sender is a player
+    player doesn't have permission "op"
+    command is not "lobby"
+    cancel event
+    send component mini message from "<b><gradient:#727575:#1C1A35>Unknown command</gradient></b>" to player
+
+
+on tab complete:
+    player doesn't have permission "op"
+    cancel event
+
+on send command list:
+    player doesn't have permission "op"
+    remove command list where [input doesn't contain "lobby"] from command list
+
+every 1 second:
+    loop all players:
+        set title of loop-player's fastboard to mini message from "<b><gradient:#727575:#1C1A35>%small caps from "campaign"%</gradient></b>"
+        set line 1 of loop-player's fastboard to ""
+        set line 2 of loop-player's fastboard to "&fUsername: &b%loop-player's name%"
+        set line 3 of loop-player's fastboard to "&fMoney: &a$%{playerdb_Money::%uuid of loop-player%} ? 0%"
+        set line 4 of loop-player's fastboard to "&fPing: &b%loop-player's ping%"
+
+command resetLumber <player>:
+    permission: op
+    trigger:
+        delete {playerdb_NPC::Lumber::Axe::Given::%uuid of arg-1%}
+
+
+command resetLumberxp <player>:
+    permission: op
+    trigger:
+        set {playerdb_Lumber_Experience::%uuid of arg-1%} to 0
+
+on citizen right click:
+    name of event-npc is "&eThe Lumberjack"
+    {-NPC::Lumber::Dialogue::Start::%uuid of player%} is not set
+    set {-NPC::Lumber::Dialogue::Start::%uuid of player%} to true
+    if {playerdb_NPC::Lumber::Axe::Given::%uuid of player%} is not set:
+        send "&e[NPC] Lumberjack&f: Hello, I'm the Lumberjack."
+        playVillagerSound(player)
+        wait 2 second
+        send "&e[NPC] Lumberjack&f: You can chop wood and earn experience."
+        playVillagerSound(player)
+        wait 2 second
+        send "&e[NPC] Lumberjack&f: Here's an axe"
+        set {_axe} to unbreakable golden axe named "&eLumberjack&f's axe"
+        hide the entire tooltip of {_axe}
+        give player {_axe}
+        play sound "minecraft:entity.player.levelup" in master category with pitch 2 for player
+        wait 1 second
+        set {playerdb_NPC::Lumber::Axe::Given::%uuid of player%} to true
+    else:
+        set {_money} to {playerdb_Money::%uuid of player%} ? 0
+        loop all items in player's inventory:
+            "%type of loop-item%" contains "log"
+            loop amount of loop-item times:
+                add 1.5 to {playerdb_Money::%uuid of player%}
+                set loop-item to air
+        send "&e[NPC] Lumberjack&f: You earned &a$%{playerdb_Money::%uuid of player%} - {_money}%&f Money from that!"
+        playVillagerSound(player)
+        wait 1 second
+    delete {-NPC::Lumber::Dialogue::Start::%uuid of player%}
+
+on block break:
+    "%type of event-block%" contains "log"
+    name of player's held item is "&eLumberjack&f's axe"
+    cancel event
+    give player block
+    add 1 to {playerdb_Lumber_Experience::%uuid of player%}
+    actionBarSend(player, "&f+ 1 &l|&r &e[Lumber&f: %enchantment level of efficiency on player's held item ? 0%&e]&f: %{playerdb_Lumber_Experience::%uuid of player%}%")
+    if {playerdb_Lumber_Experience::%uuid of player%} >= 25:
+        if player's held item is enchanted with efficiency:
+            set enchantment level of efficiency on player's held item to enchantment level of efficiency on player's held item + 1
+        else:
+            enchant player's held item with efficiency 1
+        set {playerdb_Lumber_Experience::%uuid of player%} to 0
+        actionBarSend(player, "&e[Lumber]&f: &a&l↑ LEVEL UP ↑")
+        set {_loc} to player's location
+        set {_levelup} to true
+        play sound "minecraft:entity.experience_orb.pickup" in master category with pitch 0.5 for player
+    play sound "minecraft:entity.experience_orb.pickup" in master category with pitch 2 for player
+    {_levelup} is set
+    loop 3 times:
+        fireworkAnimtation({_loc}, rgb(92, 64, 51))
+        wait 1.5 second
+
+
+command resetMiner <player>:
+    permission: op
+    trigger:
+        delete {playerdb_NPC::Miner::Pickaxe::Given::%uuid of arg-1%}
+
+
+command resetMinerxp <player>:
+    permission: op
+    trigger:
+        set {playerdb_Miner_Experience::%uuid of arg-1%} to 0
+
+
+on citizen right click:
+    name of event-npc is "&eThe Miner"
+    {-NPC::Miner::Dialogue::Start::%uuid of player%} is not set
+    set {-NPC::Miner::Dialogue::Start::%uuid of player%} to true
+    if {playerdb_NPC::Miner::Pickaxe::Given::%uuid of player%} is not set:
+        send "&e[NPC] Miner&f: Hello, I'm the Miner."
+        playVillagerSound(player, 1)
+        wait 2 second
+        send "&e[NPC] Miner&f: You can mine ores and earn experience."
+        playVillagerSound(player, 1)
+        wait 2 second
+        send "&e[NPC] Miner&f: Here's a pickaxe"
+        set {_pickaxe} to unbreakable golden pickaxe named "&eMiner&f's pickaxe"
+        hide the entire tooltip of {_pickaxe}
+        give player {_pickaxe}
+        play sound "minecraft:entity.player.levelup" in master category with pitch 2 for player
+        wait 1 second
+        set {playerdb_NPC::Miner::Pickaxe::Given::%uuid of player%} to true
+    else:
+        set {_money} to {playerdb_Money::%uuid of player%} ? 0
+        loop all items in player's inventory:
+            "%type of loop-item%" contains "ore"
+            if "%type of loop-item%" contains "diamond":
+                loop amount of loop-item times:
+                    add 3 to {playerdb_Money::%uuid of player%}
+            if "%type of loop-item%" contains "gold":
+                loop amount of loop-item times:
+                    add 2 to {playerdb_Money::%uuid of player%}
+            if "%type of loop-item%" contains "iron":
+                loop amount of loop-item times:
+                    add 1 to {playerdb_Money::%uuid of player%}
+            if "%type of loop-item%" contains "coal":
+                loop amount of loop-item times:
+                    add 0.5 to {playerdb_Money::%uuid of player%}
+            if "%type of loop-item%" contains "redstone":
+                loop amount of loop-item times:
+                    add 0.5 to {playerdb_Money::%uuid of player%}
+                set loop-item to air
+        send "&e[NPC] Miner&f: You earned &a$%{playerdb_Money::%uuid of player%} - {_money}%&f Money from that!"
+        playVillagerSound(player, 1)
+        wait 1 second
+    delete {-NPC::Miner::Dialogue::Start::%uuid of player%}
+
+on block break:
+    "%type of event-block%" contains "ore"
+    name of player's held item is "&eMiner&f's pickaxe"
+    cancel event
+    give player block
+    add 1 to {playerdb_Miner_Experience::%uuid of player%}
+    actionBarSend(player, "&f+ 1 &l|&r &e[Miner&f: %enchantment level of efficiency on player's held item ? 0%&e]&f: %{playerdb_Miner_Experience::%uuid of player%}%")
+    if {playerdb_Miner_Experience::%uuid of player%} >= 25:
+        set {playerdb_Miner_Experience::%uuid of player%} to 0
+        actionBarSend(player, "&e[Miner]&f: &a&l↑ LEVEL UP ↑")
+        set {_loc} to player's location
+        set {_levelup} to true
+        if player's held item is enchanted with efficiency:
+            set enchantment level of efficiency on player's held item to enchantment level of efficiency on player's held item + 1
+        else:
+            enchant player's held item with efficiency 1
+        play sound "minecraft:entity.experience_orb.pickup" in master category with pitch 0.5 for player
+    play sound "minecraft:entity.experience_orb.pickup" in master category with pitch 2 for player
+    {_levelup} is set
+    loop 3 times:
+        fireworkAnimtation({_loc}, rgb(0, 0, 179))
+        wait 1.5 second
+
+
+command resetFarmer <player>:
+    permission: op
+    trigger:
+        delete {playerdb_NPC::Farmer::Hoe::Given::%uuid of arg-1%}
+
+
+command resetFarmerxp <player>:
+    permission: op
+    trigger:
+        set {playerdb_Farmer_Experience::%uuid of arg-1%} to 0
+
+
+on citizen right click:
+    name of event-npc is "&eThe Farmer"
+    {-NPC::Farmer::Dialogue::Start::%uuid of player%} is not set
+    set {-NPC::Farmer::Dialogue::Start::%uuid of player%} to true
+    if {playerdb_NPC::Farmer::Hoe::Given::%uuid of player%} is not set:
+        send "&e[NPC] Farmer&f: Hello, I'm the Farmer."
+        playVillagerSound(player, 1)
+        wait 2 second
+        send "&e[NPC] Farmer&f: You can farm carrots and earn experience."
+        playVillagerSound(player, 1)
+        wait 2 second
+        send "&e[NPC] Farmer&f: Here's a hoe"
+        set {_hoe} to unbreakable golden hoe named "&eFarmer&f's hoe"
+        hide the entire tooltip of {_hoe}
+        give player {_hoe}
+        play sound "minecraft:entity.player.levelup" in master category with pitch 2 for player
+        wait 1 second
+        set {playerdb_NPC::Farmer::Hoe::Given::%uuid of player%} to true
+    else:
+        set {_money} to {playerdb_Money::%uuid of player%} ? 0
+        loop all items in player's inventory:
+            "%type of loop-item%" contains "carrot"
+            loop amount of loop-item times:
+                add 0.5 to {playerdb_Money::%uuid of player%}
+                set loop-item to air
+        send "&e[NPC] Farmer&f: You earned &a$%{playerdb_Money::%uuid of player%} - {_money}%&f Money from that!"
+        playVillagerSound(player)
+    delete {-NPC::Farmer::Dialogue::Start::%uuid of player%}
+
+on block break:
+    "%type of event-block%" contains "carrots"
+    name of player's held item is "&eFarmer&f's hoe"
+    cancel event
+    give player a carrot
+    add 1 to {playerdb_Farmer_Experience::%uuid of player%}
+    actionBarSend(player, "&f+ 1 &l|&r &e[Farmer&f: %enchantment level of efficiency on player's held item ? 0%&e]&f: %{playerdb_Farmer_Experience::%uuid of player%}%")
+    if {playerdb_Farmer_Experience::%uuid of player%} >= 25:
+        set {playerdb_Farmer_Experience::%uuid of player%} to 0
+        if player's held item is enchanted with efficiency:
+            set enchantment level of efficiency on player's held item to enchantment level of efficiency on player's held item + 1
+        else:
+            enchant player's held item with efficiency 1
+        actionBarSend(player, "&e[Farmer]&f: &a&l↑ LEVEL UP ↑")
+        set {_loc} to player's location
+        set {_levelup} to true
+        play sound "minecraft:entity.experience_orb.pickup" in master category with pitch 0.5 for player
+    play sound "minecraft:entity.experience_orb.pickup" in master category with pitch 2 for player
+    {_levelup} is set
+    loop 3 times:
+        fireworkAnimtation({_loc}, rgb(255, 204, 58))
+        wait 1.5 second
+
+
+on block break:
+    player doesn't have permission "op"
+    cancel event
+
+
+on block break:
+    event-block is farmland
+    cancel event
+
+on damage:
+    cancel event
+
+
+function actionBarSend(p: player, message: string, lasting: int = 40):
+    set {_id} to a random uuid
+    set {-ActionBar::%uuid of {_p}%} to {_id}
+    send action bar {_message} to {_p}
+    loop {_lasting} times: #you can't wait an ammount of time with a variable (idk why)
+        wait 1 tick
+    {-ActionBar::%uuid of {_p}%} is {_id}
+    send action bar "" to {_p}
+
+
+function playVillagerSound(p: player, pitch: int = 0.5):
+    chance of 50%:
+        play sound "minecraft:entity.villager.ambient" in master category with pitch {_pitch} for {_p}
+    else:
+        play sound "minecraft:entity.villager.celebrate" in master category with pitch {_pitch} for {_p}
+
+on block trample:
+	if type of event-block is farmland:
+		cancel event
+
+function fireworkAnimtation(p: location, color: color):
+    play sound "minecraft:entity.firework_rocket.launch" in master category with pitch 1 at {_p}
+    set {_loc} to location 1 block above and 2 block infront of {_p}
+    set {_v} to vector from {_loc} to location 15 blocks above {_loc}
+    set vector length of {_v} to 0.5
+    set {_distance} to distance between {_loc} and location 15 blocks above {_loc}
+    loop {_distance} / vector length of {_v} times:
+        set {_loc} to location 0.1 blocks infront of {_loc}
+        set {_loc} to {_loc} ~ {_v} #Add the vector, brings the location closer to the direction of the vector.
+        make 2 of firework at {_loc} with extra 0.1 with force
+        make 2 of dust using dustOption({_color}, 1.5) at {_loc} with offset vector(0.2, 0.2, 0.2) with force
+        wait 1 tick if mod(loop-iteration, 2) is 0
+    loop 10 times:
+        play sound "minecraft:entity.firework_rocket.large_blast_far" in master category with pitch 2 at {_p}
+        play sound "minecraft:entity.firework_rocket.large_blast_far" in master category with pitch 1 at {_p}
+    make 40 of firework at {_loc} with extra 0.2 with force
